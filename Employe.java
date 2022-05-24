@@ -56,7 +56,7 @@ public abstract class Employe {
 	    public  abstract double  calculerSalaire() ;
 	    @Override
 	    public  String toString()  {     
-	        return String.format( "Le salaire :"+this.getsalaire()+ "\nLe nom :"+this.getNom() + "\nLe prenom" + this.getPrenom()+"\nLa date de naissance:"+ this.getDate());
+	        return String.format( " nom :"+this.getNom() + "\nLe prenom" + this.getPrenom()+"\nLa date de naissance:"+ this.getDate());
 		}
 
 		
