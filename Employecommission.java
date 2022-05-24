@@ -4,7 +4,6 @@ public class Employecommission extends Employefixe {
 	
 
 		    private double CommissionTarif;
-		    //private double BaseSalaire;
 		    private double ventestotal;
 
 		    
@@ -14,7 +13,6 @@ public class Employecommission extends Employefixe {
 		        super(Nom ,Prenom, Date, salaire );
 		        
 		        this.CommissionTarif = CommissionTarif;
-		       // this.BaseSalaire = Basesalaire;
 		        this.ventestotal = Ventestotal;
 		    }
 		        
