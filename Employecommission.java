@@ -1,6 +1,6 @@
 package Brief2;
 
-public class Employecommission extends Employefixe {
+public class Employecommission extends Employe {
 	
 
 		    private double CommissionTarif;
